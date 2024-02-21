@@ -1,0 +1,6 @@
+name: LocalTime
+version: '${project.version}'
+main: org.localtime.LocalTimePlugin
+api-version: '1.19'
+authors: [Axmon, Anonventions, KreatingMania]
+depend: [PlaceholderAPI]

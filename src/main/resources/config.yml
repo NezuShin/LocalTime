@@ -1,0 +1,2 @@
+# Default configuration for LocalTime plugin
+timezone: "GMT" # Default timezone. Change as needed or let users modify it.
