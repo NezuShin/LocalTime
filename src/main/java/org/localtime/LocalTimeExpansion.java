@@ -44,7 +44,7 @@ public class LocalTimeExpansion extends PlaceholderExpansion {
         if(identifier.equals("time")){
             String timezone = plugin.getConfig().getString("timezone", "GMT");
             LocalDateTime now = LocalDateTime.now(ZoneId.of(timezone));
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(plugin.getConfig().getString("format", "HH:mm:ss"));
             return now.format(formatter);
         }
         return null;

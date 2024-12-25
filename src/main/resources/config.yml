@@ -1,2 +1,6 @@
 # Default configuration for LocalTime plugin
 timezone: "GMT" # Default timezone. Change as needed or let users modify it.
+format: "HH:mm:ss" # Date and time format
+#Example:
+#format: "dd-MM-YYYY HH:mm:ss" will print 25-12-2024 14:38:29
+#More about date format: https://docs.oracle.com/javase/8/docs/api/java/ime/format/DateTimeFormatter.html
